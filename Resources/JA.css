@@ -1,1 +1,43 @@
-<
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  background: #E6E6E6;
+}
+
+h2 {
+  color: #2E64FE;
+}
+
+.alignment {
+  float: left;
+}
+
+.text-alignment {
+  float: left;
+  position: relative;
+}
+
+.little-img {
+  position: relative;
+  top: 40px;
+}
+
+.box {
+  position: relative;
+  top: 20px;
+  height: 500px;
+  padding: 20px;
+  color: black;
+  background: #FFFFFF;
+}
+
+.zoom {
+  transition: transform .2s;
+
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
