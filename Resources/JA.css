@@ -28,6 +28,12 @@ h2 {
   top: 40px;
 }
 
+.comp-img {
+  position: relative;
+  top: 20px;
+  left: 30%;
+}
+
 .box {
   position: relative;
   top: 20px;
@@ -37,10 +43,29 @@ h2 {
   background: #FFFFFF;
 }
 
+
+
 .viz_box {
   position: relative;
   top: 20px;
   height: 600px;
+  padding: 20px;
+  color: black;
+  background: #FFFFFF;
+}
+
+.comp_box {
+  position: relative;
+  top: 20px;
+  height: 650px;
+  padding: 20px;
+  color: black;
+  background: #FFFFFF;
+}
+
+.data_box {
+  position: relative;
+  top: 20px;
   padding: 20px;
   color: black;
   background: #FFFFFF;
