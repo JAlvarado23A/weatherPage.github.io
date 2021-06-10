@@ -12,6 +12,12 @@ h2 {
   float: left;
 }
 
+.c-alignmnet {
+  position: relative;
+  left: 15%;
+  top: 5px;
+}
+
 .text-alignment {
   float: left;
   position: relative;
@@ -31,6 +37,15 @@ h2 {
   background: #FFFFFF;
 }
 
+.viz_box {
+  position: relative;
+  top: 20px;
+  height: 600px;
+  padding: 20px;
+  color: black;
+  background: #FFFFFF;
+}
+
 .zoom {
   transition: transform .2s;
 
@@ -40,4 +55,10 @@ h2 {
   -ms-transform: scale(1.5); 
   -webkit-transform: scale(1.5);
   transform: scale(1.5); 
+}
+
+.v-text {
+  font-size: 16px;
+  color: #0B4C5F;
+  padding-top: 10px;
 }
