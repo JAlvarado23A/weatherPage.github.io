@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Weather</title>
+  <title>Wind Speed</title>
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   
@@ -40,7 +40,6 @@
             <li><a class="dropdown-item" href="vis_hum.html">Humidity</a></li>
             <li><a class="dropdown-item" href="vis_cloud.html">Cloudiness</a></li>
             <li><a class="dropdown-item" href="vis_wind.html">Wind Speed</a></li>
-          </ul>
       	
         </li>
       </ul>
@@ -57,38 +56,36 @@
 
        <!--First Column in this Row-->
         <div class="col-sm-8">
-          <div class="box">
-            <h2>Summary: Latitude vs X</h2>
+          <div class="viz_box">
+            <h2>Wind Speed</h2>
             <hr>
-            <p>
-              <img src="images\Lat_vs_Temp.png" height="50%" width="50%" class="alignment" alt = "Project Image">
-             The purpose of this project was to analyze how weather changes as you get closer to the equato. To accomplish this analysis, we first pulled data from the OpenWeatherMap APIto assemble a dataset on over 500 cities.
-            <br>
-            <br>
-            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
+            
+              <img src="images\Lat_vs_Cloudiness.png" height="60%" width="75%" alt="Max Temperature" class="c-alignmnet">
+            <p class = "v-text">
+            This graph shows us the wind speed (mph) in our city data set by latitude location. Most cities in our data set experience winds between 0 to 7 mph. We also notice that there is a higher concentration of cities experiencing low wind conditions near the equator (between -30 to 30 degrees). 
             </p>
           </div>
         </div>
 
        <!--2nd Column in this Row-->
         <div class="col-sm-4">
-          <div class="box">
+          <div class="viz_box">
             <h2>Visualizations</h2>
             
-            <a href="images\Lat_vs_Temp.png">
-              <img src="images\Lat_vs_Temp.png" height="30%" width="50%" class="zoom alignment little-img" alt="Max Temperature">
+            <a href="vis_max_temp.html">
+              <img src="images\Lat_vs_Temp.png" height="20%" width="50%" class="zoom alignment little-img" alt="Max Temperature">
             </a>
             
-            <a href="images\Lat_vs_Humidity.png">
-              <img src="images\Lat_vs_Humidity.png" height="30%" width="50%" class="zoom alignment little-img" alt="Humidity">
+            <a href="vis_hum.html">
+              <img src="images\Lat_vs_Humidity.png" height="20%" width="50%" class="zoom alignment little-img" alt="Humidity">
             </a>
 
-            <a href="images\Lat_vs_Cloudiness.png">
-              <img src="images\Lat_vs_Cloudiness.png" height="30%" width="50%" class="zoom alignment little-img" alt="Cloudiness">
+            <a href="vis_cloud.html">
+              <img src="images\Lat_vs_Cloudiness.png" height="20%" width="50%" class="zoom alignment little-img" alt="Cloudiness">
             </a>
 
-            <a href="images\Lat_vs_Wind_Speed.png">
-             <img src="images\Lat_vs_Wind_Speed.png" height="30%" width="50%" class="zoom alignment little-img" alt="Wind Speed">
+            <a href="vis_wind.html">
+             <img src="images\Lat_vs_Wind_Speed.png" height="20%" width="50%" class="zoom alignment little-img" alt="Wind Speed">
            </a>
             <hr>
           </div>
